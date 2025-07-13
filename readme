@@ -1,0 +1,14 @@
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+pip install nest_asyncio
+
+database will self create at first run
+
+may need to run 
+
+ALTER TABLE users ADD COLUMN is_vendor INTEGER DEFAULT 0;
+
+if no table for vendor id creates
+
+/adminhelp for all commands need to add /setvendor /removevendor to the adminhelp menu
