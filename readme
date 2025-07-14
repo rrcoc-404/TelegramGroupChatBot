@@ -1,3 +1,7 @@
+place all files in one folder, inside folder create /handlers, place 
+admin.py, anti_spam.py ,chat.py system.py and user.py inside the handlers folder 
+along with a empty file called __init__.py (this file allows your main file to read the rest)
+
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
